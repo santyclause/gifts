@@ -1,0 +1,38 @@
+:root {
+  --light: #eeeeee;
+  --dark: #323232;
+}
+
+.profile-picture {
+  height: 200px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.profile-picture.profile-picture-sm {
+  height: 64px;
+}
+
+label {
+  display: block;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: #37663C;
+  color: var(--light);
+  min-height: 90vh;
+}
+
+.gift {
+  width: 10vw;
+  background-color: var(--light);
+  aspect-ratio: 1/1;
+}
+
+.gift-img {
+  background-color: var(--dark);
+}
