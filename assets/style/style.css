@@ -24,12 +24,16 @@ label {
   padding: 1em;
   background-color: #37663C;
   color: var(--light);
-  min-height: 90vh;
+  min-height: 100vh;
+}
+
+.gift-list {
+  max-height: 100vh;
 }
 
 .gift {
-  width: 10vw;
   background-color: var(--light);
+  margin: 0.5em;
   aspect-ratio: 1/1;
 }
 
